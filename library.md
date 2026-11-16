@@ -2,5 +2,7 @@
 
 ```mermaid
 flowchart LR
-    A --> B
+    Raw[Raw data] --> Bronze[Bronze]
+    Bronze --> Silver[Silver]
+    Silver --> Gold[Gold]
 ```
